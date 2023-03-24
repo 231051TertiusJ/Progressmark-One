@@ -1,5 +1,7 @@
 
 nav {
+    width: 100%;
+    height: 50px;
    background-image: url(../assets/kongos-image.jpg);
    background-size: cover;
 }
@@ -185,22 +187,21 @@ footer{
 }
 
 .tecks{
-    width: 675px;
+    width: 600px;
     height: 675px;
     background-color: grey;
 }
 
 .bks{
-    width: 675px;
+    width: 600px;
     height: 675px;
-    background-color: lightgrey;
 }
 
 form{
-    width: 40%;
-    background-color: #f7f7f7;
+    width: 100%;
+    height: 675px;
+    background-color: lightgray;
     margin: 0 auto;
-    margin-top: 100px;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 25px;
@@ -225,6 +226,32 @@ select, button{
 
 }
 
-button{
-    background-color: limegreen !important;
+.dox-group{
+    width: 400px;
+    height: 50px;
+}
+
+.dox{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 7px;
+    font-weight: bold;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.abouthead{
+    width: 100%;
+    height: 175px;
+}
+
+.playlisthead{
+    width: 100%;
+    height: 85px;
+}
+
+.mix{
+    
 }
