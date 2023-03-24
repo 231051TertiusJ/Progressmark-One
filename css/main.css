@@ -226,11 +226,6 @@ select, button{
 
 }
 
-.dox-group{
-    width: 400px;
-    height: 50px;
-}
-
 .dox{
     width: 150px;
     height: 50px;
@@ -253,5 +248,58 @@ select, button{
 }
 
 .mix{
-    
+    width: 550px;
+    height: 470px;
+    background-color: lightgrey;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.dox-group{
+    width: 550px;
+    height: 500px;
+    background-color: aliceblue;
+}
+
+.toptex{
+    width: 100%;
+    height: 40px;
+}
+
+.song{
+    width: 130px;
+    height: 460px;
+    padding-top: 40px;
+    float: left;
+}
+.album{
+    width: 130px;
+    height: 460px;
+    padding-top: 40px;
+    float: left;
+    padding-left: -50px;
+}
+
+.album ul {
+    list-style: none;
+}
+
+.Duration{
+    width: 130px;
+    height: 460px;
+    padding-top: 40px;
+    float: left;
+    padding-left: 80px;
+}
+
+.Duration ul {
+    list-style: none;
+}
+
+.dotdotdot{
+    width: 130px;
+    height: 460px;
+    padding-top: 40px;
+    padding-left: 90px;
 }
