@@ -196,6 +196,7 @@ footer{
     height: 50px;
     border: 2px solid crimson;
     border-radius: 50%;
+    cursor: pointer;
     float: right;
 }
 
@@ -437,3 +438,23 @@ header h2{
     font-family: 'Montserrat', sans-serif;
 }
 
+.youtube{
+    background-image: url("../assets/logo-youtube.svg");
+    background-position: center;
+    background-size: cover
+}
+.face{
+    background-image: url("../assets/logo-facebook.svg");
+    background-position: center;
+    background-size: cover;
+}
+.twit{
+    background-image: url("../assets/logo-twitter.svg");
+    background-position: center;
+    background-size: cover;
+}
+.insta{
+    background-image: url("../assets/logo-instagram.svg");
+    background-position: center;
+    background-size: cover;
+}
