@@ -86,6 +86,7 @@ header {
 .normal{
     background-color: #2b2b2b;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .normal:hover{
@@ -99,6 +100,7 @@ header {
 .inverted{
     border: 2px solid #2b2b2b;
     padding-top: 10px !important;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .inverted:hover{
@@ -185,6 +187,7 @@ footer{
     float: left;
     font-weight: bold;
     color: white;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px
 }
 
@@ -413,3 +416,24 @@ select, button{
     margin-top: -12px;
     cursor: pointer;
 }
+
+nav input{
+    font-family: 'Playfair Display', serif;
+}
+
+header h1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header h3{
+    font-family: 'Playfair Display', serif;
+}
+
+header h5{
+    font-family: 'Playfair Display', serif;
+}
+
+header h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
