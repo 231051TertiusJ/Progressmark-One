@@ -1,7 +1,14 @@
 
+html, body{
+    background-color: rgba(36, 36, 36, 0.96);
+}
+
+
+
+
 nav {
     width: 100%;
-    height: 50px;
+    height: 10px;
    background-image: url(../assets/kongos-image.jpg);
    background-size: cover;
 }
@@ -54,7 +61,7 @@ header {
 }
 
 .name{
-    font-size: 90px;
+    font-size: 70px;
 }
 
 .headerbtns{
@@ -120,7 +127,7 @@ header {
     background-color: #2b2b2b;
 }
 
-.box-right{
+.box-left{
     width: 490px;
     height: 390px;
     background-color: #2b2b2b;
@@ -128,7 +135,7 @@ header {
     
 }
 
-.box-left{
+.box-right{
     width: 560px;
     height: 560px;
     background-color: lightgrey;
@@ -145,9 +152,8 @@ header {
 .col-box{
     width: 277px;
     height: 277px;
-    background-color: lightgray;
-    text-align: center;
-    padding-top: 140px;
+    background-color: ;
+    padding-top: 100px;
     margin-top: 40px;
 }
 
@@ -159,6 +165,7 @@ header {
     width: 300px;
     height: 80;
     margin-top: 110px;
+    color: crimson;
 }
 
 .bot{
@@ -174,27 +181,34 @@ footer{
 .bottemlogo{
     width: 400px;
     height: 80px;
-    margin-left: 122px;
+    margin-left: 50px;
     float: left;
     font-weight: bold;
+    color: white;
+    font-size: 20px
 }
 
 .round-logo{
     width: 50px;
     height: 50px;
-    border: 2px solid #2b2b2b;
+    border: 2px solid crimson;
     border-radius: 50%;
+    float: right;
 }
 
 .tecks{
-    width: 600px;
+    width: 500px;
     height: 675px;
-    background-color: grey;
+    background-color: ;
+    margin-left: -30px;
+    padding-top: -100px;
+    color: white;
 }
 
 .bks{
     width: 600px;
-    height: 675px;
+    height: 720px;
+    padding-top: 40px;
 }
 
 form{
@@ -218,6 +232,16 @@ form{
     background-color: #2b2b2b;
     color: white;
 
+}
+
+.play{
+    background-color: crimson;
+    color: white;
+}
+
+.play:hover{
+    background-color: #2b2b2b;
+    color: white;
 }
 
 select, button{
@@ -249,8 +273,10 @@ select, button{
 
 .mix{
     width: 550px;
-    height: 470px;
-    background-color: lightgrey;
+    height: 550px;
+    background-image: url(../assets/Acdc_Highway_to_Hell.jpg);
+    background-size: cover;
+    background-position: center;
     color: white;
     text-align: center;
     padding-top: 150px;
@@ -258,48 +284,125 @@ select, button{
 
 .dox-group{
     width: 550px;
-    height: 500px;
-    background-color: aliceblue;
+    height: 550px;
+    background-color: lightgray;
 }
 
-.toptex{
+.myplay{
     width: 100%;
     height: 40px;
+    background-color: #2b2b2b;
+    color: white;
+    margin: 0 auto;
 }
 
-.song{
-    width: 130px;
-    height: 460px;
-    padding-top: 40px;
-    float: left;
-}
-.album{
-    width: 130px;
-    height: 460px;
-    padding-top: 40px;
-    float: left;
-    padding-left: -50px;
+
+
+
+
+
+
+
+
+
+.materofpuppet{
+    background-image: url("../assets/imag1.webp");
+    background-size: cover;
+    background-position: center;
 }
 
-.album ul {
-    list-style: none;
+.qq{
+    background-image: url(../assets/ab67616d0000b27313d4adf9e4b938f88266f4e4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.qw{
+    background-image: url(../assets/Iron_man.webp);
+    background-size: cover;
+    background-position: center;
+}
+.qe{
+    background-image: url(../assets/TheOffspringTKAA.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.qr{
+    background-image: url(../assets/Psycho_-_Muse.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-.Duration{
-    width: 130px;
-    height: 460px;
-    padding-top: 40px;
-    float: left;
-    padding-left: 80px;
+.appe{
+    background-image: url("../assets/appetite-for-destruction.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.th{
+    background-image: url("../assets/ACDC_Back_in_Black_cover.svg");
+    background-size: cover;
+    background-position: center;
+}
+.ty{
+    background-image: url("../assets/996ecc010fe1339b124880d0d62cdecb.png");
+    background-size: cover;
+    background-position: center;
+}
+.tu{
+    background-image: url("../assets/74f14b5f01860558f4c6f69bdbb09795.400x399x1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.ti{
+    background-image: url("../assets/Wolfmother_-__Joker_and_the_Thief_.png");
+    background-size: cover;
+    background-position: center;
+}
+.to{
+    background-image: url("../assets/Hives_hate_to_say_i_told_you_so.png");
+    background-size: cover;
+    background-position: center;
+}
+.tp{
+    background-image: url("../assets/ab67616d0000b2732a9e5743f2d7c93c43fee849.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-.Duration ul {
-    list-style: none;
+.location{
+    width: 600px;
+    height: 200px;
+    background-color: black;
 }
 
-.dotdotdot{
-    width: 130px;
-    height: 460px;
-    padding-top: 40px;
-    padding-left: 90px;
+.youtube{
+
+}
+
+.player-line{
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+}
+
+.line{
+    width: 100%;
+    height: 5px;
+    background-color: #2b2b2b;
+}
+
+.inner-line{
+    height: 5px;
+    width: 50%;
+    background-color: crimson;
+
+}
+
+.marker{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: crimson;
+    margin: 0 auto;
+    margin-top: -12px;
+    cursor: pointer;
 }
