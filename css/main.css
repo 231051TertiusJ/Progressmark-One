@@ -1,6 +1,6 @@
 
 html, body{
-    background-color: rgba(36, 36, 36, 0.96);
+    background-color: #202833;
 }
 
 
@@ -9,7 +9,7 @@ html, body{
 nav {
     width: 100%;
     height: 10px;
-   background-image: url(../assets/kongos-image.jpg);
+   background-image: url('../assets/kongos-image.jpg');
    background-size: cover;
 }
 
@@ -18,7 +18,7 @@ nav {
 header {
     width: 100%;
     height: 840px;
-    background-image: url(..//assets/kongos-image.jpg);
+    background-image: url('..//assets/kongos-image.jpg');
     background-size: cover;
     background-position: center;
     padding-top: 250px;
@@ -140,11 +140,48 @@ header {
 .box-right{
     width: 560px;
     height: 560px;
-    background-color: lightgrey;
+    background-color: #0b0c10;
+    color: white;
     margin-top: -60px;
     margin-left: -80px;
     padding-top: 50px;
     padding-left: 80px;
+}
+
+.arrow-left{
+    width: 40px;
+    height: 40px;
+    background-image: url('../assets/left_arrow_icon.svg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 235px;
+    margin-left: 320px;
+    cursor: pointer;
+    float: left;
+}
+
+.arrow-right{
+    width: 40px;
+    height: 40px;
+    background-image: url('../assets/right_arrow_icon.svg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 235px;
+    margin-right: 60px;
+    cursor: pointer;
+    float: right;
+}
+
+.arrow-left:hover{
+    background-color: crimson;
+}
+
+.arrow-right:hover{
+    background-color: crimson;
 }
 
 .kongosinf{
@@ -157,6 +194,59 @@ header {
     background-color: ;
     padding-top: 100px;
     margin-top: 40px;
+}
+
+.overlay{
+    width: 277px;
+    height: 277px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 80px;
+    margin-top: -100px;
+    opacity: 0;
+}
+
+.overlay:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.icon{
+    width: 60px;
+    height: 60px;
+    background-image: url('../assets/black_play_media_icon.svg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.content{
+    width: 225px;
+    height: 51px;
+    background-color: crimson;
+    margin-top: 50px;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 9px;
+    padding-left: 25px;
+
+
+}
+
+.content h3, p{
+    margin: 0;
+}
+
+.heartico{
+    width: 40px;
+    height: 40px;
+    background-image: url('../assets/heart_icon.svg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: -5px;
+    margin-right: -4px;
 }
 
 .oppie{
@@ -279,13 +369,14 @@ select, button{
 
 .playlisthead{
     width: 100%;
-    height: 85px;
+    height: 900px;
+    background-color: #202833;
 }
 
 .mix{
     width: 550px;
     height: 550px;
-    background-image: url(../assets/Acdc_Highway_to_Hell.jpg);
+    background-image: url('../assets/Acdc_Highway_to_Hell.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -296,25 +387,16 @@ select, button{
 .dox-group{
     width: 550px;
     height: 550px;
-    background-color: lightgray;
+    background-color: #0b0c10;
 }
 
 .myplay{
     width: 100%;
     height: 40px;
-    background-color: #2b2b2b;
+    background-color: #0b0c10;
     color: white;
     margin: 0 auto;
 }
-
-
-
-
-
-
-
-
-
 
 .materofpuppet{
     background-image: url("../assets/imag1.webp");
@@ -323,22 +405,22 @@ select, button{
 }
 
 .qq{
-    background-image: url(../assets/ab67616d0000b27313d4adf9e4b938f88266f4e4.jpg);
+    background-image: url('../assets/ab67616d0000b27313d4adf9e4b938f88266f4e4.jpg');
     background-size: cover;
     background-position: center;
 }
 .qw{
-    background-image: url(../assets/Iron_man.webp);
+    background-image: url('../assets/Iron_man.webp');
     background-size: cover;
     background-position: center;
 }
 .qe{
-    background-image: url(../assets/TheOffspringTKAA.jpg);
+    background-image: url('../assets/TheOffspringTKAA.jpg');
     background-size: cover;
     background-position: center;
 }
 .qr{
-    background-image: url(../assets/Psycho_-_Muse.jpg);
+    background-image: url('../assets/Psycho_-_Muse.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -383,10 +465,6 @@ select, button{
     width: 600px;
     height: 200px;
     background-color: black;
-}
-
-.youtube{
-
 }
 
 .player-line{
@@ -439,22 +517,22 @@ header h2{
 }
 
 .youtube{
-    background-image: url("../assets/logo-youtube.svg");
+    background-image: url("../assets/youtube_icon.svg");
     background-position: center;
     background-size: cover
 }
 .face{
-    background-image: url("../assets/logo-facebook.svg");
+    background-image: url("../assets/facebook_icon.svg");
     background-position: center;
     background-size: cover;
 }
 .twit{
-    background-image: url("../assets/logo-twitter.svg");
+    background-image: url("../assets/twitter_icon.svg");
     background-position: center;
     background-size: cover;
 }
 .insta{
-    background-image: url("../assets/logo-instagram.svg");
+    background-image: url("../assets/instagram_icon.svg");
     background-position: center;
     background-size: cover;
 }
