@@ -31,11 +31,15 @@ header {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    margin-right: 40px;
+    margin-right: 50px;
 }
 
 .logo{
     width: 200px;
+    height: 60px;
+    background-image: url('../assets/stream_logo_white.png');
+    background-position: center;
+    background-size: cover;
     float: left;
     color: white;
     margin-left: 50px;
@@ -191,7 +195,6 @@ header {
 .col-box{
     width: 277px;
     height: 277px;
-    background-color: ;
     padding-top: 100px;
     margin-top: 40px;
 }
@@ -294,7 +297,6 @@ footer{
 .tecks{
     width: 500px;
     height: 675px;
-    background-color: ;
     margin-left: -30px;
     padding-top: -100px;
     color: white;
