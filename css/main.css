@@ -267,6 +267,7 @@ header {
 footer{
     width: 100%;
     height: 90px;
+    margin-top: 200px;
 
 }
 
@@ -476,7 +477,7 @@ select, button{
 .line{
     width: 100%;
     height: 5px;
-    background-color: #2b2b2b;
+    background-color: black;
 }
 
 .inner-line{
@@ -535,4 +536,75 @@ header h2{
     background-image: url("../assets/instagram_icon.svg");
     background-position: center;
     background-size: cover;
+}
+
+.artistimage{
+    width: 80px;
+    height: 80px;
+    background-image: url('../assets/EjsjsF7VkAILqWf.jpg_large');
+    background-position: center;
+    background-size: cover;
+}
+
+.acdc{
+    padding-left: 85px;
+    padding-bottom: 50px;
+    margin-top: -70px;
+}
+
+.navgroup{
+
+}
+
+.rewind{
+    width: 50px;
+    height: 50px;
+    background-image: url('../assets/previous_icon.svg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 380px;
+    margin-top: -105px;
+}
+
+.pause{
+    width: 80px;
+    height: 80px;
+    background-image: url('../assets/pause_icon.svg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 460px;
+    margin-top: -70px;
+}
+
+.forward{
+    width: 50px;
+    height: 50px;
+    background-image: url('../assets/next_icon.svg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 580px;
+    margin-top: -64px;
+}
+
+.number{
+    padding-left: 900px;
+    margin-top: -30px;
+}
+
+.dot{
+    width: 30px;
+    height: 30px;
+    background-image: url('../assets/options_media_icon.svg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 950px;
+    margin-top: -28px;
+    cursor: pointer;
 }
